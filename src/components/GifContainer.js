@@ -1,5 +1,5 @@
 import React from "react";
-import "./GifContainer.css";
+import "../App.css";
 
 function GifContainer({
     gif,

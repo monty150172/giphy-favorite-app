@@ -1,7 +1,7 @@
 import React from "react";
 import { useGiphy } from "../logic";
 import GifContainer from "../components/GifContainer";
-import "./GifContainer.css";
+import "../App.css";
 
 function Favorites() {
     const { favorites, removeFromFavorites } = useGiphy();

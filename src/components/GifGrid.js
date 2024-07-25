@@ -1,7 +1,7 @@
 // src/components/GifGrid.js
 import React from "react";
 import GifContainer from "./GifContainer";
-import "./GifContainer.css";
+import "..App.css ";
 
 function GifGrid({
     gifs,

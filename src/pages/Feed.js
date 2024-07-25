@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useGiphy } from "../logic";
-import GifContainer from "../components/GifContainer"; // Stellen Sie sicher, dass dieser Pfad korrekt ist
-
+import GifContainer from "../components/GifContainer";
 function Feed() {
     const { gifs, loading, error, searchGifs, addToFavorites } = useGiphy();
 
