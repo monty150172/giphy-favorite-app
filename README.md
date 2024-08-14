@@ -1,48 +1,63 @@
-# React + Vite Single Page Application
-
-    Favorite Giphys
+Favorite Giphys
 
 ![alt text](image.png)
 
 Author: Philipp Sauerländer
+
 Contact: Email: tiamat15@hotmail.de
+
 Github: https://github.com/monty150172/giphy-favorite-app
 
-FavoritGlyphy is a React application that allows users to search for GIFs using the Giphy API, save their favorite GIFs, and manage their favorites collection. The application is built using React and features components for search, displaying results, and managing favorites.
+Giphy Favorite App
 
-## Features
+Diese Single Page Application ist der Abschluss vom Modul "React"
 
--   **Search for GIFs:** Search the Giphy API for GIFs based on user input.
--   **Favorites Management:** Add GIFs to your favorites by clicking on them, and remove them when no longer needed.
--   **Responsive Layout:** Search results are displayed in a grid layout that adapts to the screen size.
+Dieses Repository enthält eine einfache Webanwendung, die es Benutzern ermöglicht, GIFs von Giphy zu suchen, anzuzeigen und ihre Lieblings-GIFs zu speichern.
+Inhalt
 
-## Getting Started
+    Installation
+    Verwendung
+    Technologien
+    Lizenz
 
-### Prerequisites
+Installation
 
-Before you begin, ensure you have met the following requirements:
+Um die Anwendung lokal auszuführen, folgen Sie bitte diesen Schritten:
 
--   Node.js (v14 or later) and npm installed on your local machine.
+    Klonen Sie das Repository:
 
-### Installation
+`git clone https://github.com/monty150172/giphy-favorite-app.git`
 
-1. Clone the repository:
+Navigieren Sie in das Verzeichnis der Anwendung:
 
-    ```bash
-    git clone https://github.com/monty150172/giphy-favorite-app
-    cd giphy-favorite-app
-    ```
+`cd giphy-favorite-app`
 
-2. Install the dependencies:
+Installieren Sie die notwendigen Abhängigkeiten:
 
-    ```bash
-    npm install
-    ```
+`npm install`
 
-3. Start the development server:
+Starten Sie die Anwendung:
 
-    ```bash
     npm run dev
-    ```
 
-4. Open your browser and navigate to `http://localhost:5173`.
+    Die Anwendung wird auf http://localhost:5173 verfügbar sein.
+
+Verwendung
+
+    Suche: Geben Sie einen Suchbegriff in die Suchleiste ein und klicken Sie auf die Schaltfläche "Suchen". Die Anwendung zeigt relevante GIFs von Giphy an.
+    Favoriten hinzufügen: Klicken Sie auf ein GIF, um es zu Ihren Favoriten hinzuzufügen.
+    Favoriten anzeigen: Klicken Sie auf die Registerkarte "Favoriten", um eine Liste Ihrer gespeicherten GIFs anzuzeigen.
+
+Technologien
+
+Diese Anwendung verwendet die folgenden Technologien:
+
+    React: Frontend-Bibliothek für die Benutzeroberfläche
+    Giphy API: Um GIFs basierend auf Suchanfragen zu erhalten
+    CSS: Für das Styling der Anwendung
+
+Contributing
+
+Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die LICENSE-Datei für Details.
